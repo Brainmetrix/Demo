@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vsing.demo.sign_up">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#11000000"
+
+            android:ems="10"
+            android:hint="Name"
+            android:layout_marginTop="23dp"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="256dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/Email" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:ems="10"
+            android:hint="Email Id"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="256dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/Name"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="19dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/ic_action_pass"
+            android:ems="10"
+            android:hint="Password"
+
+            android:inputType="textPassword"
+            android:layout_below="@+id/Email"
+            android:layout_alignStart="@+id/Email" />
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#11000000"
+
+            android:ems="10"
+            android:hint="Address"
+            android:layout_marginTop="17dp"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="256dp"
+            android:layout_below="@+id/Password"
+            android:layout_alignStart="@+id/Password" />
+
+        <EditText
+            android:id="@+id/Mobile"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#11000000"
+
+            android:ems="10"
+            android:hint="Mobile"
+            android:layout_marginTop="22dp"
+            android:inputType="phone"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="256dp"
+            android:layout_below="@+id/Address"
+            android:layout_alignStart="@+id/Address" />
+
+        <EditText
+            android:id="@+id/Qualification"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#11000000"
+
+            android:ems="10"
+            android:hint="Qualification"
+            android:layout_marginTop="21dp"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="256dp"
+            android:layout_below="@+id/Mobile"
+            android:layout_alignStart="@+id/Mobile" />
+
+        <EditText
+            android:id="@+id/Skills"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#11000000"
+
+            android:ems="10"
+            android:hint="Skills"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="256dp"
+            android:layout_below="@+id/Qualification"
+            android:layout_alignStart="@+id/Qualification" />
+
+        <EditText
+            android:id="@+id/Experience"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="#11000000"
+
+            android:ems="10"
+            android:hint="Experience"
+            android:layout_marginTop="13dp"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="256dp"
+            android:layout_below="@+id/Skills"
+            android:layout_alignStart="@+id/Skills" />
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="270dp"
+            android:layout_height="46dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/rounded_corner_button"
+            android:text="Register" />
+
+    </RelativeLayout>
+
+</ScrollView>
